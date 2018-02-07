@@ -1,9 +1,5 @@
-<PUBLIC:COMPONENT TAGNAME="xss">
-   <PUBLIC:ATTACH EVENT="onload" FOR="window" ONEVENT="main()" LITERALCONTENT="false"/>
+<PUBLIC:COMPONENT>
+	<SCRIPT>
+   alert('hah');
+	</SCRIPT>
 </PUBLIC:COMPONENT>
-<SCRIPT>
-   function main() 
-   {
-     alert("heh.");
-   }
-</SCRIPT>
